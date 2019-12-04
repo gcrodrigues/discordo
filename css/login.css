@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gudea:400,700);
+@import url('https://fonts.googleapis.com/css?family=Gudea:400,700');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&display=swap');
 *,
 *::before,
@@ -45,7 +45,7 @@ body{
 h1{
     font-family: "Londrina Solid";
     font-size: 48px;
-    color: #517dae;
+    color: #0085BA;
     text-shadow: #000 2px 2px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -80,11 +80,11 @@ input[type="email"]::before{
 }
 
 input[type="submit"]{
-    padding:10px 60px;
+    padding:8px 70px;
     border-radius:50px;
     background-color: transparent;
-    color: #517dae;
-    border: 2px solid #517dae;
+    color: #0085BA;
+    border: 2px solid #0085BA;
     margin:10px 0 10px 0;
     font-size: .7rem;
     text-transform: uppercase;
@@ -94,7 +94,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color: #517dae;
+    background-color: #0085BA;
     color: white;
     cursor: pointer;
 }
