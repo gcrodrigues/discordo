@@ -16,6 +16,7 @@ html{
 
 body{
     font-family: "Gudea", Helvetica, sans-serif;
+    overflow: hidden;
 }
 
 .container{
@@ -30,7 +31,7 @@ body{
 .sobre, 
 .acesso{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,10 +70,13 @@ ul{
     width:30vw;
     min-width: 350px;
 }
+.titulo{
+    padding: 20px 10px;
+}
+
 .acesso div{
     display:flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 
 .sobre div p{
@@ -96,7 +100,6 @@ h1{
     text-shadow: #000 2px 2px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-top: 20px;
 }
 
 h2{
@@ -144,6 +147,6 @@ h3{
         flex-direction: column-reverse;
     }
     .acesso, .sobre{
-        height: auto;
+        height: 100%;
     }
 }
