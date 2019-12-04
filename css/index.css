@@ -36,7 +36,7 @@ body{
 }
 
 .sobre{
-    background-image: radial-gradient(at 100% 100%,#0085BA 0%,#00AAED 50%, #48C1F0 100%);
+    background-image: radial-gradient(at 100% 100%, #74b6d4 0%, #6094be 25%, #517dae 50%, #335492 75%, #1b3160  100%);
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
