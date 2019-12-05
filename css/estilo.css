@@ -34,6 +34,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 5;
   }
 
   ul {
@@ -43,7 +44,7 @@ nav {
     color: white;
     text-decoration: none;
   }
-  
+
   .logo a:hover {
     text-decoration: none;
   }
