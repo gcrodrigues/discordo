@@ -1,0 +1,86 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <script src="https://kit.fontawesome.com/9182377cb1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Discordo!</a></li>
+            <li class="item"><a href="index.html">Sair</a></li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1>Plante a discórdia!</h1>
+        <form>
+            <Legend>Digite sua pergunta.</Legend>
+            <textarea name="discordia" id="discordia" cols="70" rows="5" maxlength="150" placeholder="Máx 250 caracteres"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <a href="#principal" class="scroll"><i class="fas fa-chevron-down arrow"></i></a>
+    </header>
+        <main id="principal">
+
+            <div class="timeline">
+                <div class="pergunta-timeline">
+                    <p>Você concorda...</p>
+                    <p class="pergunta">o feijão vai por cima do arroz?</p>
+                    <div>
+                        <button class="agree">Concordo!</button>
+                        <button class="disagree">Discordo!</button>
+                    </div>
+                </div>
+
+                <div class="pergunta-timeline">
+                    <p>Você concorda...</p>
+                    <p class="pergunta">legalização da Cannabis?</p>
+                    <div>
+                        <button class="agree"> Concordo!</button>
+                        <button class="disagree">Discordo!</button>
+                    </div>
+                </div>
+
+                <div class="pergunta-timeline">
+                    <p>Você concorda...</p>
+                    <p class="pergunta">é bolacha e não biscoito?</p>
+                    <div>
+                        <button class="agree">Concordo!</button>
+                        <button class="disagree">Discordo!</button>
+                    </div>
+                </div>
+
+                <div class="pergunta-timeline">
+                    <p>Você concorda...</p>
+                    <p class="pergunta">legalização do aborto?</p>
+                    <div>
+                        <button class="agree"> Concordo!</button>
+                        <button class="disagree">Discordo!</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>
+            <strong>Desenvolvido por:</strong><br> 
+            Gustavo de Carvalho Rodrigues, <br>
+            Janaina Dias, <br>
+            Khayan Malantrucco
+        </p>
+        <p>&copy;Discordo 2019</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/scroll.js"></script>    
+    <script src="js/navbar.js"></script>
+</body>
+</html>
