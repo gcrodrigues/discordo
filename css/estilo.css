@@ -125,7 +125,7 @@ nav {
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100vw;
@@ -139,14 +139,20 @@ header{
 
 form{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 form legend{
     align-self: flex-start;
-    font-size: 1.2rem;
+    margin-top: 1em;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: black 2px 2px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Londrina Solid", sans-serif;
     margin-bottom: 15px;
 }
 
@@ -180,16 +186,6 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-header h1{
-    margin-top: 3em;
-    font-size: 2.5em;
-    color: white;
-    text-shadow: black 2px 2px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: "Londrina Solid", sans-serif;
-}
-
 header p{
     width: 50%;
     margin: 2em 0;
@@ -197,7 +193,7 @@ header p{
     padding: 2em 0;
 }
 
-.arrow{
+/* .arrow{
     color: #335492;
     animation: bounce 1s infinite alternate;
     margin-bottom:2em;
@@ -210,7 +206,7 @@ header p{
     to {
       transform: translateY(-15px);
     }
-  }
+  } */
 
   /*----------------------------*/
 
@@ -261,8 +257,9 @@ header p{
   }
 
     .pergunta-timeline div button{
-        padding: 1em 4em;
+        padding: 1em 2em;
         border-radius: 50px;
+        font-size: 14px;
         border: none;
         cursor: pointer;
         background-color: #e7f3fb;
@@ -304,7 +301,7 @@ strong{
         width: 85%;
     }
     legend{
-        margin-left: 2em;
+        margin-left: 1em;
     }
 }
 @media (max-width: 415px){
